@@ -20,3 +20,5 @@ added the package called the sharedpreference to store the data locally
 added the package called the riverpod for the statemanagemnet
 wittern the code of the local storage called the sharedpreference
  the code has been pushed
+
+# model-class
