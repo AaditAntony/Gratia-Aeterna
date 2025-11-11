@@ -37,3 +37,5 @@ and the progress widget
 the code has been pushed
 
 # usuable
+the main has been updated 
+the app is running successfully
