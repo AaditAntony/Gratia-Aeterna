@@ -31,3 +31,6 @@ written the code of the repository section conncect with the local storage
 the code has been written and pushed
 
 # home-screen
+created home screen
+created add action screen
+and the progress widget
