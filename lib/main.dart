@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+
 
 void main() {
-  runApp(const SoulJourneyApp());
+  runApp(const ProviderScope(child: SoulJourneyApp()));
 }
 
 class SoulJourneyApp extends StatelessWidget {
@@ -11,8 +14,9 @@ class SoulJourneyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Gratia Aetrna",
+      title: "Soul Journey",
       theme: ThemeData.dark(),
+      //home: const HomeScreen(),
     );
   }
 }
