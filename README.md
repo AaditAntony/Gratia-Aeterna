@@ -39,3 +39,4 @@ the code has been pushed
 # usuable
 the main has been updated 
 the app is running successfully
+the mvp the minimub viavle product is ready
