@@ -7,7 +7,9 @@ class ScoreRepository{
 return await LocalStorage.getInt(scoreKey, 50);
   }
 
-  Future<void>saveScoe(int score)async{
+  Future<void>saveScore(int score)async{
     return await LocalStorage.saveInt(scoreKey, score);
   }
 }
+
+// the branch has not been pushed
