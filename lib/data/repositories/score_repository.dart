@@ -4,7 +4,7 @@ class ScoreRepository{
   static const String scoreKey='score';
 
   Future<int>loadScore()async{
-return await LocalStorage.getInt(scoreKey, 50);
+return await LocalStorage.getInt(scoreKey, 20);
   }
 
   Future<void>saveScore(int score)async{
